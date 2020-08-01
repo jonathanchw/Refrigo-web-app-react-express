@@ -1,0 +1,62 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #c4c1c1;
+  margin-bottom: 10px;
+}
+
+.cabecera {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #00d2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 20px ;
+  padding-bottom: 10px;
+  }
+
+
+/* Menu hamburguesa , Logo , boton de ingreso*/
+.cabeceraTop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.containerBotonHamburguesa {
+  position: relative;
+}
+
+.menuHamburguesa {
+  background: #ffffff67;
+  padding: 5px;
+  border: 1px solid #ffffff2f;
+  border-radius: 2px;
+
+}
+
+
+.boton-ingresar {
+  text-decoration: none;
+  border: solid 1px #8b0808;
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 0.5rem;
+  background: linear-gradient(#f80505, #b40606);
+  border-radius: 1rem;
+  color: #ffffff;
+  line-height: 0.7rem;
+  height: 0.8rem;
+}
+
+.boton-ingresar:hover {
+  background: linear-gradient(#b40606, #f80505);
+}

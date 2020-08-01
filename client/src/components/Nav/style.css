@@ -1,0 +1,88 @@
+
+.navegacion {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  height: 1.5em;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+
+}
+
+.navegacion-items {
+  margin: 0 15px;
+}
+
+.navegacion-items a {
+  padding: 4px;
+  text-decoration: none;
+  color: #e6e8fd;
+  font-size: 1em;
+}
+
+.navegacion-items a:hover {
+  border-bottom: #ffffff 1px solid;
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
+.containerHamburguesa {
+  background-color: #fffffff1;
+  border-radius: 4px;
+  box-shadow: 4px 6px 15px 2px #474747;
+  position: absolute;
+  z-index: 3;
+  top: 35px;
+  left: 4px;
+  max-width: 250px;
+  padding-left: 20px;
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+.boton-buscar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
+  z-index: 2;
+}
+
+.buscador {
+  position: absolute;
+  top: 30px;
+  left: -270px;
+  display: none;
+  width: 300px;
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  margin: 0 10px 5px 0;
+}
+
+.mostrarbuscador {
+  display: block;
+}
+
+.fa-search {
+  width: 20px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #e6e8fd;
+  background: transparent;
+  border: none;
+}
+
+.fa-search:hover {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+
+
+

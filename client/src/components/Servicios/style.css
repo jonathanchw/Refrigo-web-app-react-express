@@ -1,0 +1,70 @@
+/* Servicios*/
+.contenedor-servicios {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.contenedor-servicios-text {
+  padding: 10px 20px;
+  width: 40%;
+
+  margin: 60px 0 0 30px;
+  box-shadow: 0px 0px 4px 2px #607d8bc7;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.contenedor-servicios-text h1 {
+  margin: 20px 0 0 20px;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+.contenedor-servicios-text p,
+.contenedor-servicios-text span {
+  margin: 20px;
+  padding: 5px;
+  text-align: justify;
+}
+
+.btn-whatsapp {
+  font-size: 30px;
+  color: white;
+  background-color: #4dc247;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.btn-whatsapp svg {
+  width: 40px;
+  height: 45px;
+  padding: 0px;
+  padding-bottom: 9px;
+  fill: white;
+  vertical-align: middle;
+}
+
+.contacto-servicio {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+
+.contenedor-servicios-multimedia {
+  margin-top: 60px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-img-servicios img {
+  margin: 50px 5px;
+  width: 272px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+
+}

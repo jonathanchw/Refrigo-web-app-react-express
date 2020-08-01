@@ -1,0 +1,13 @@
+.contenedor-noved {
+  margin: 20px 0;
+  text-align: center;
+
+}
+
+.contenedor-noved-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+

@@ -1,0 +1,35 @@
+
+.containerImgNosotros {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 0 5px 2px #8c8c8d70;
+
+}
+
+.containerImgNosotros::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../assets/nosotros_img/banner.png);
+  opacity: 0.9;
+
+}
+
+.contenedor-titulo {
+  text-align: center;
+  color: #fdfdfd;
+  position: relative;
+}
+
+.contenedor-titulo-descripcion {
+  padding-top: 0.3em;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}

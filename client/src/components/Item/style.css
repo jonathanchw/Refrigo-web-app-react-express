@@ -1,0 +1,43 @@
+.contenedor-item {
+  max-width: 15%;
+  min-width: 150px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+  font-size:0.8em;
+  box-shadow: 0px 0px 4px 2px #607d8bc7;
+}
+
+.contenedor-item:hover{
+  box-shadow: 0px 0px 5px 2px #ddddddb2;
+}
+
+
+.contenedor-item img {
+  width: 100%;
+}
+
+.title-art-reciente {
+  background-color: #e73d3d;
+  color: #f1e2e2;
+  text-align: center;
+  width: 100%;
+}
+
+.offerSign {
+  background-color: #f3f573cc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  text-transform: uppercase;
+  border-top-right-radius: 3px;
+
+
+}
