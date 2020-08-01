@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './style.css';
 import logo from '../../assets/logo.png';
 const Footer = ()=> {
@@ -6,7 +7,7 @@ const Footer = ()=> {
    
     <footer>
     <div className="footer_left">
-        <img src={logo}/>
+        <img src={logo} alt="logo"/>
         <div className="derechos-reservados">
             <p>&copy; 2020 Refrigo.CA</p>
              <p>Todos los derechos reservados</p>
@@ -15,10 +16,10 @@ const Footer = ()=> {
     <div className="footer_middle">
         <nav className="nav-footer">
             <ul className="nav-footer-list">
-                <li className="nav-footer-list-items"><a href="#">Trabajá con nosotros</a></li>
-                <li className="nav-footer-list-items"><a href="#">Términos y condiciones</a></li>
-                <li className="nav-footer-list-items"><a href="#">Políticas de privacidad</a></li>
-                <li className="nav-footer-list-items"><a href="#">Ayuda</a></li>
+                <li className="nav-footer-list-items"><Link to="/">Trabajá con nosotros</Link></li>
+                <li className="nav-footer-list-items"><Link to="/">Términos y condiciones</Link></li>
+                <li className="nav-footer-list-items"><Link to="/">Políticas de privacidad</Link></li>
+                <li className="nav-footer-list-items"><Link to="/">Ayuda</Link></li>
             </ul>
         </nav>
     </div>
