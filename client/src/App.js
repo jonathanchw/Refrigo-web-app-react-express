@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Servicios from "./components/Servicios";
 import Nosotros from "./components/Nosotros";
 import Contacto from "./components/Contacto";
+import Item from "./components/Item";
 
 const App = () => {
 
@@ -50,9 +51,9 @@ const App = () => {
         <Route path="/catalogo" render={() => (
           <React.Fragment>
             <Productos lista={itemsLista} />
-
           </React.Fragment>
         )} />
+                
         <Route path="/servicios" component={Servicios} />
         <Route path="/nosotros" component={Nosotros} />
         <Route path="/contacto" component={Contacto} />

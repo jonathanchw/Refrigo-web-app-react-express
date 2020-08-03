@@ -6,10 +6,10 @@ import ContactoMap from './ContactoMap';
 
 const Contacto = () => {
   return (
-    <React.Fragment>
+    <div className="contenido-contacto">
       <ContactoFormulario />
       <ContactoMap />
-    </React.Fragment>
+    </div>
   )
 }
 export default Contacto;
