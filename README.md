@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Refrigo_Web_App_React_Express
 
-## Available Scripts
+This repository contains the code of my final project for the Professional Web Master course at UTN, Buenos Aires
 
-In the project directory, you can run:
 
-### `yarn start`
+### About the app
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Actually, there are two separated apps. The Client which serves the FrontEnd (using React), and the Server (in Node/Express).
+For this Web App a database table in mysql language is needed which is in the root folder (refrigodb.sql).
+For its use you could use a MySQL database manager like Xammp, and then you should configure the file (...server\config.json) to get the database address.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+### How to run the Server
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  1. In your terminal, navigate to the server directory. `...\refrigo_react_express>cd server`
+  2. Run npm install to install all dependencies. `...\refrigo_react_express\server>npm install`
+    (be sure to have Xammp running and have the server config.json file configured.) 
+  3. Run npm start to start the app. `...\refrigo_react_express\server>npm start`
+  4. If everything works you can view the database in JSON format at this address http://localhost:9000/db.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### How to run the Client
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  1. In another terminal, navigate to the client directory. `...\refrigo_react_express>cd client`
+  2. Run npm install to install all dependencies. `...\refrigo_react_express\client>npm install`
+  3. Run npm start to start the app. `...\refrigo_react_express\client>npm start`
+  4. If everything works, it should automatically open a tab in your default browser with the address http://localhost:3000/.
+    
+    
+### ScreenShots of de Web-App
+## Home
+<img src="screenshots/Screenshot_Refrigo Web-App.png" width="300">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Home center
+<img src="screenshots/Screenshot_Refrigo Web-App2.png" width="300">
 
-### `yarn eject`
+## Home Footer
+<img src="screenshots/Screenshot_Refrigo Web-App3.png" width="300">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Searching for items"aire"
+<img src="screenshots/Screenshot_Refrigo Web-App4.png" width="300">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Searching for items "heladera" 
+<img src="screenshots/Screenshot_Refrigo Web-App5.png" width="300">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Services Page
+<img src="screenshots/Screenshot_Refrigo Web-App6.png" width="300">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## About Us page
+<img src="screenshots/Screenshot_Refrigo Web-App7.png" width="300">
 
-## Learn More
+## Contact page
+<img src="screenshots/Screenshot_Refrigo Web-App8.png" width="300">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Sample Swiper 
+<img src="screenshots/Screenshot_Refrigo Web-App9.png" width="300">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# I hope you have a good time and enjoy it.
