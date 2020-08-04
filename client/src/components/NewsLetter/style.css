@@ -38,12 +38,12 @@
 }
 
 .suscribite-text {
-  width: 75%;
+  width: 100%;
 }
 
 .suscribite-boton {
   border: none;
-  background-color: #b40606;
+  background-color: #d40909;
   color: #fff;
   font-weight: 600;
   /*width:20%;*/

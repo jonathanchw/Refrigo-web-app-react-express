@@ -68,3 +68,27 @@
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 
 }
+
+@media (max-width : 768px) {
+  
+
+
+
+  /*-------Servicios--------*/
+  .contenedor-servicios {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contenedor-servicios-text {
+
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  .contenedor-servicios-multimedia {
+   width: 100%;
+  }
+
+}

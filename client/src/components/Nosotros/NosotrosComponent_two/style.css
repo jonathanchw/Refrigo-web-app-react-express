@@ -31,3 +31,14 @@
 }
 
 
+@media (max-width : 768px) {
+    
+  .article2 {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .article2Title_p {
+    width: 100%; 
+  }
+}

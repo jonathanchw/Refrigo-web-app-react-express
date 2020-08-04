@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 import Servicios from "./components/Servicios";
 import Nosotros from "./components/Nosotros";
 import Contacto from "./components/Contacto";
-import ErrorBusqueda from "./components/Errorbusqueda";
+import Busqueda from "./components/Busqueda";
 
 
 
@@ -30,37 +30,21 @@ const App = () => {
 
 
 
-  //Crear componente Interna con esto!!!!
+  //Crear componente Interna con esto!!!!//
   const Interna = ({ itemsLista }) => {
 
     const { id } = useParams();
-    const producto = itemsLista.filter(itemSelec => itemSelec.id == id);
+    //eslint-disable-next-line
+    const producto = itemsLista.filter(itemSelec => itemSelec.id == id);// Por Resolver => (Expected '===' and instead saw '==')
     if (!producto || !producto.length) return null;
 
     return (
       <Productos lista={producto} />
     )
   };
-  ////-------------------------------
+  //--------------------------------------//
 
-
-  //Crear componente Busqueda con esto!!!!
-  const Busqueda = ({ itemsLista }) => {
-    const { termino } = useParams();
-    const articulos = itemsLista.filter(
-      itemSelec => {
-        const regex = new RegExp(termino, 'gi');
-        return regex.test(itemSelec.nombre)
-      });
-    if (!articulos || !articulos.length) return (
-      <ErrorBusqueda />
-    );
-    return (
-      <Productos lista={articulos} />
-    )
-  };
-  //----------------------------------
-
+  
   return (
     <div className="App">
       <Router>

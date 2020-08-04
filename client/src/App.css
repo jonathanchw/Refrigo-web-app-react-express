@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   max-width: 1360px;
   margin: 0 auto;
@@ -19,11 +18,9 @@ body {
 }
 
 /* css para  secciones Novedades, oferta, marcas, etc */
-
 .contenedor-seccion {
   margin: 20px 0;
   text-align: center;
-
 }
 
 .contenedor-seccion-items {
@@ -39,7 +36,6 @@ body {
   position: relative;
   width: 80%;
   margin: 0 auto;
-
 }
 
 .contenedor-seccion-titulo::before {
@@ -65,3 +61,184 @@ body {
   overflow: hidden;
   margin-right: 130px;
 }
+
+
+/*------------------MediaQueries ---------------------*/
+
+/*-------index--------*/
+@media (max-width : 768px) {
+  
+
+
+
+
+/*----------Contacto-------------*/
+.contenido-contacto{
+  flex-direction: column;
+}
+.contenedor-form{
+  width:50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.contenedor-direccion{
+  width: 80%;
+  margin: 0 auto;
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+  /*-------index--------*/
+  .cabeceraTop {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .cabecera-logo {
+    order: -1;
+  }
+
+  .navegacion {
+    margin-bottom: 25px;
+  }
+
+  .contenedor-novd_desc {
+    flex-direction: column;
+  }
+
+  .novedades {
+    width: 100%;
+  }
+
+  .descuentos {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .navegacion-items a {
+    font-size: 1em;
+  }
+
+  .navegacion-items a:hover {
+    font-size: 1em;
+  }
+
+  .buscador {
+    display: inline;
+  }
+
+  .boton-buscar {
+    padding-top: 5px;
+  }
+
+  .baner-show {
+    height: 260px;
+
+  }
+
+  .aviso-covid-19,
+  .descripcion-novedades {
+    padding: 0 10px;
+    font-size: 1em;
+  }
+
+  .contenedor-marcas-items img {
+    width: 100px;
+  }
+
+  .descuentos h2,
+  .contenedor-marcas h2,
+  .contenedor-productos-destc h2 {
+    font-size: 1.5em;
+  }
+
+  .contenedor-productos-destc-items {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .newsletter {
+    position: relative;
+  }
+
+  .newsletter img {
+    position: absolute;
+    width: 16%;
+    top: 0;
+    left: 210px;
+  }
+
+  .info-newsletter h3 {
+    font-size: 1.1em;
+  }
+
+  .info-newsletter p,
+  .info-newsletter h3 {
+    width: 220px;
+    padding: 0 10px;
+  }
+
+  .suscribite-text,
+  .suscribite-boton {
+    font-size: 0.9em;
+    padding: 5px;
+  }
+
+  /*-------Servicios--------*/
+
+  .contenedor-servicios-text {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .contenedor-servicios-text h1,
+  .contenedor-servicios-text p {
+    margin: 0px;
+  }
+
+  .contenedor-video iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor-img-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /*---------Acerca de Refrigo--------*/
+
+  .containerImgNosotros {
+    height: 200px;
+
+  }
+
+  .article1 img,
+  .article2 img {
+    width: 100%;
+  }
+
+  .article1Title_p {
+    padding: 20px;
+    font-size: 12px;
+  }
+/*--------contacto-------*/
+.contenedor-form{
+  width:80%;
+}
+.container_googleMaps iframe{
+  width: 100%;
+    height: 100%;
+}
+
+/*-------categorias-------*/
+.contenido-centro .categorias{
+  display: none;
+}
+}
+

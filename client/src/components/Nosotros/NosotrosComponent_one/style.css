@@ -26,3 +26,16 @@
 }
 
 
+@media (max-width : 768px) {
+  
+  
+
+  .article1 {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .article1Title_p {
+    width: 100%;
+  }
+}
