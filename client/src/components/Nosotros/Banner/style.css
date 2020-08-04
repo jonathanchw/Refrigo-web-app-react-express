@@ -8,7 +8,6 @@
   align-items: center;
   position: relative;
   box-shadow: 0 0 5px 2px #8c8c8d70;
-
 }
 
 .containerImgNosotros::before {
@@ -18,7 +17,6 @@
   height: 100%;
   background-image: url(../../../assets/nosotros_img/banner.png);
   opacity: 0.9;
-
 }
 
 .contenedor-titulo {
@@ -31,5 +29,4 @@
   padding-top: 0.3em;
   font-size: 1.2em;
   font-weight: bold;
-
 }

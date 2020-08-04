@@ -4,7 +4,6 @@ import Item from "../Item";
 
 const Oferta = ({ oferta }) => {
   const productosOferta = [];
-
   //verifico si producto tiene key oferta=true
   oferta.map((producto) => {
     return producto.oferta ? productosOferta.push(producto) : null;

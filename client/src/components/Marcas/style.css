@@ -1,15 +1,11 @@
 .contenedor-marcas {
   margin: 30px 0;
   text-align: center;
-
 }
-
 
 .contenedor-marcas-items {
   display: flex;
-  /*box-shadow: 0px 0px 4px 2px #607d8bc7;*/
- /* border-radius: 3px;*/
- background-color: #fff;
+  background-color: #fff;
   flex-wrap: wrap;
   justify-content: center;
   margin: 30px 0;

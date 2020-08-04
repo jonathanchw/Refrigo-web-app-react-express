@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   max-width: 1360px;
   margin: 0 auto;
@@ -67,28 +68,24 @@ body {
 
 /*-------index--------*/
 @media (max-width : 768px) {
-  
 
+  /*----------Contacto-------------*/
+  .contenido-contacto {
+    flex-direction: column;
+  }
 
+  .contenedor-form {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 
-
-/*----------Contacto-------------*/
-.contenido-contacto{
-  flex-direction: column;
-}
-.contenedor-form{
-  width:50%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
-
-.contenedor-direccion{
-  width: 80%;
-  margin: 0 auto;
-}
+  .contenedor-direccion {
+    width: 80%;
+    margin: 0 auto;
+  }
 
 }
-
 
 @media (max-width: 480px) {
 
@@ -227,18 +224,19 @@ body {
     padding: 20px;
     font-size: 12px;
   }
-/*--------contacto-------*/
-.contenedor-form{
-  width:80%;
-}
-.container_googleMaps iframe{
-  width: 100%;
+
+  /*--------contacto-------*/
+  .contenedor-form {
+    width: 80%;
+  }
+
+  .container_googleMaps iframe {
+    width: 100%;
     height: 100%;
-}
+  }
 
-/*-------categorias-------*/
-.contenido-centro .categorias{
-  display: none;
+  /*-------categorias-------*/
+  .contenido-centro .categorias {
+    display: none;
+  }
 }
-}
-

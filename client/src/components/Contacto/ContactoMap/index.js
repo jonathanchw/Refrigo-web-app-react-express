@@ -16,18 +16,18 @@ const ContactoMap = (props) => {
       <span>Direccion: P.Sherman, Calle Wallaby 42, Sydney</span>
       {<br></br>}
       <div className="container_googleMaps">
-          </div>
-       
-        <React.Fragment>
-        <Map
-         googleMapURL= {mapURL}
-         containerElement=  { <div className="containerElement"/>}
-         mapElement={<div className="mapElement"/>}
-         loadingElement={<p>Cargando</p>}
-         />
+      </div>
 
-        </React.Fragment>
-</div >
+      <React.Fragment>
+        <Map
+          googleMapURL={mapURL}
+          containerElement={<div className="containerElement" />}
+          mapElement={<div className="mapElement" />}
+          loadingElement={<p>Cargando</p>}
+        />
+
+      </React.Fragment>
+    </div >
 
   )
 }

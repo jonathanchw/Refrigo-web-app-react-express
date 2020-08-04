@@ -4,9 +4,8 @@ import Item from '../Item';
 //import {useRouteMatch} from 'react-router-dom'; 
 
 const Productos = ({ lista }) => {
- 
   return (
-    
+
     <div className="contenedor-seccion">
       <h2 className="contenedor-seccion-titulo">
         <span>Productos</span>

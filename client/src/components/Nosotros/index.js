@@ -4,10 +4,10 @@ import NosotrosComponentOne from './NosotrosComponent_one';
 import NosotrosComponentTwo from './NosotrosComponent_two';
 import Banner from './Banner';
 
-const Nosotros= ()=> {
+const Nosotros = () => {
   return (
     <div>
-      <Banner/>
+      <Banner />
       <NosotrosComponentOne />
       <NosotrosComponentTwo />
     </div>

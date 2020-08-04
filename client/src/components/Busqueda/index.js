@@ -1,6 +1,6 @@
 import React from 'react';
 import ErrorBusqueda from '../Errorbusqueda';
-import {useParams} from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Productos from '../Productos'
 
 const Busqueda = ({ itemsLista }) => {

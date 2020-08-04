@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
       freezeTableName: true,
       timestamps: false
     });
-    
+
   Categorias.associate = (models) => {
     Categorias.hasMany(models.items);
   };

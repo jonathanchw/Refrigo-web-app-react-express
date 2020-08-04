@@ -29,10 +29,7 @@ const App = () => {
   }, [])
 
 
-
-  //Crear componente Interna con esto!!!!//
   const Interna = ({ itemsLista }) => {
-
     const { id } = useParams();
     //eslint-disable-next-line
     const producto = itemsLista.filter(itemSelec => itemSelec.id == id);// Por Resolver => (Expected '===' and instead saw '==')
@@ -42,9 +39,7 @@ const App = () => {
       <Productos lista={producto} />
     )
   };
-  //--------------------------------------//
 
-  
   return (
     <div className="App">
       <Router>

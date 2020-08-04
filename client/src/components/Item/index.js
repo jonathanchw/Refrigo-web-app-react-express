@@ -6,18 +6,15 @@ const Item = ({ img, precio, descripcion, categoria, novedades, oferta, id }) =>
   let notificacionNovedad = "";
   let toogleClaseOfferta = "";
   let showOferta = "";
-
   if (novedades) {
     notificacionNovedad = "Articulo Reciente"
   };
-
   if (oferta) {
     toogleClaseOfferta = "offerSign";
     showOferta = "oferta";
   };
+  const itemUrlId = `/catalogo/${id}`;
 
-
-const itemUrlId= `/catalogo/${id}`;
   return (
     <div className="contenedor-item">
       <Link to={itemUrlId} className='itemLink'>
@@ -29,7 +26,6 @@ const itemUrlId= `/catalogo/${id}`;
         <div className={toogleClaseOfferta}>
           <span>{showOferta}</span>
         </div>
-
       </Link>
     </div>
   );

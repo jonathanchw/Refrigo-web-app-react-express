@@ -9,15 +9,14 @@ import samsung from '../../assets/marcas_img/samsung.png';
 import generalelectric from '../../assets/marcas_img/generalelectric.png';
 import '../../App.css'
 
-
 const Marcas = () => {
   return (
     <div className="contenedor-marcas">
-        <h2 className="contenedor-seccion-titulo">
-          <span>
+      <h2 className="contenedor-seccion-titulo">
+        <span>
           Nuestras marcas
           </span>
-          </h2>
+      </h2>
       <div className="contenedor-marcas-items">
         <div className="contenedor-marcas-items">
           <img src={noblex} alt="marca noblex" />
@@ -27,7 +26,6 @@ const Marcas = () => {
           <img src={westric} alt="marca westric" />
           <img src={samsung} alt="marca samsung" />
           <img src={generalelectric} alt="marca General electric" />
-
         </div>
       </div>
 
