@@ -18,6 +18,7 @@ const Oferta = ({ oferta }) => {
       <div className="contenedor-seccion-items">
         {productosOferta.map((producto) => (
           <Item key={producto.id}
+            id={producto.id}
             img={producto.imgUrl}
             precio={producto.precio}
             descripcion={producto.nombre}

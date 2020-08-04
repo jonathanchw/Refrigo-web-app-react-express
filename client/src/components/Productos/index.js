@@ -4,8 +4,9 @@ import Item from '../Item';
 //import {useRouteMatch} from 'react-router-dom'; 
 
 const Productos = ({ lista }) => {
-  //let { path, url } = useRouteMatch();
+ 
   return (
+    
     <div className="contenedor-seccion">
       <h2 className="contenedor-seccion-titulo">
         <span>Productos</span>

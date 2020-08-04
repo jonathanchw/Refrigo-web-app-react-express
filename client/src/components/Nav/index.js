@@ -1,8 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const Nav = () => {
+    const [buscador, setBuscador] = useState("");
+    const handleChange = (event) => { setBuscador(event.target.value); }
+    const ruta = `/buscar/${buscador}`
+
     return (
         <nav className="navbar">
             <div className="cabeceraBotton">
@@ -14,8 +19,10 @@ const Nav = () => {
                     <li className="navegacion-items"><Link to="/Contacto">Contacto</Link></li>
                     <div className="boton-buscar">
                         <input id="motrarBuscador" className="buscador" type="search" name="buscar"
-                            placeholder="Buscar.." />
-                        <button id="botonBuscar" className="fas fa-search" href="#buscar"></button>
+                            placeholder="Buscar.." value={buscador.value} onChange={handleChange} />
+                        <Link to={ruta}>
+                            <button id="botonBuscar" className="fas fa-search" ></button>
+                        </Link>
                     </div>
                 </ul>
             </div>
@@ -23,5 +30,5 @@ const Nav = () => {
     )
 };
 
-
 export default Nav;
+

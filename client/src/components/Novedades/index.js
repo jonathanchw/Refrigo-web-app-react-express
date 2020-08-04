@@ -18,6 +18,7 @@ novedades.map((producto) => {
       <div className="contenedor-seccion-items">
         {itemsNovedad.map((producto) => (
           <Item key={producto.id}
+            id={producto.id}
             img={producto.imgUrl}
             precio={producto.precio}
             descripcion={producto.nombre}

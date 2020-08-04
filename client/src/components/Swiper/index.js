@@ -22,7 +22,7 @@ const Carousel = () => {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      
+      autoplay
     >
       <SwiperSlide>
         <img src={show1} alt="Carrousel1" />

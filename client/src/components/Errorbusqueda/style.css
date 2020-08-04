@@ -1,0 +1,21 @@
+.errorBusqueda{
+  margin: 80px auto;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorBusqueda p{
+  margin: 10px;
+  color: #222;
+  font-size:20px ;
+}
+
+
+.errorBusqueda img{
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}

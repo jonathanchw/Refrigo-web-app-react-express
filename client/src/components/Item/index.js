@@ -15,10 +15,12 @@ const Item = ({ img, precio, descripcion, categoria, novedades, oferta, id }) =>
     toogleClaseOfferta = "offerSign";
     showOferta = "oferta";
   };
+
+
 const itemUrlId= `/catalogo/${id}`;
   return (
     <div className="contenedor-item">
-      <Link to={itemUrlId} className='itemLink' >
+      <Link to={itemUrlId} className='itemLink'>
         <img src={img} alt="item" />
         <p>{categoria}</p>
         <strong className="title-art-reciente">{notificacionNovedad}</strong>
