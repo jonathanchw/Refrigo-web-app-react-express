@@ -27,7 +27,7 @@ For its use you could use a MySQL database manager like Xammp, and then you shou
   4. If everything works, it should automatically open a tab in your default browser with the address http://localhost:3000/.
     
     
-### ScreenShots of de Web-App
+### Web-App's ScreenShots  
 ## Home
 <img src="screenshots/Screenshot_Refrigo Web-App.png" width="300">
 
