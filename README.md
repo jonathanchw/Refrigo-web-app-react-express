@@ -5,7 +5,7 @@ This repository contains the code of my final project for the Professional Web M
 
 ### About the app
 
-Actually, there are two separated apps. The Client which serves the FrontEnd (using React), and the Server (in Node/Express).
+Actually, there are two separated apps. The Client which serves the FrontEnd (using React), and the Server (Node.js/Express).
 For this Web App a database table in mysql language is needed which is in the root folder (refrigodb.sql).
 For its use you could use a MySQL database manager like Xammp, and then you should configure the file (...server\config.json) to get the database address.
 
